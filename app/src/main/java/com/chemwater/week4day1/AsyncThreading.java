@@ -12,10 +12,7 @@ public class AsyncThreading extends AsyncTask<String, String, String> {
     //DO NOT DO THIS
     //TextView textView ;
 
-    /*
-    public AsyncThreading(TextView textView) {
-        this.textView = textView;
-    }*/
+
     public AsyncThreading(String editText) {
         this.editTextString = editText ;
     }
